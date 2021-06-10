@@ -1,0 +1,81 @@
+.zan-panel {
+  margin-top: -1px;
+}
+
+.zan-btn {
+  background: #ec4a70;
+  color: #fff;
+}
+
+.zan-cell__bd {
+  color: #8f8f8f;
+}
+
+.items-list {
+  background: #fff;
+  margin: 5px 5px 5px 30px;
+}
+
+.zan-pull-right {
+  flex: 6;
+}
+
+/**index.wxss**/
+
+.zan-btn ul {
+  height: 50px;
+}
+
+.zan-btn ul li {
+  text-align: left;
+  height: 50px;
+  line-height: 50px;
+  list-style-type: none;
+  float: left;
+}
+
+.zan-btn ul li image {
+  height: 35px;
+  width: 35px;
+  float: right;
+  margin-top: 5px
+}
+.weui-cell-circle{
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  border-color: #ec4a70;
+}
+.weui-cell-circle02{
+  border: 1px solid #000;
+  border-radius: 2.5px;
+  width: 5px;
+  height: 5px;
+  border-color: #ec4a70;
+  background: #ec4a70;
+  margin: auto;
+    margin-top: 1.5px;
+}
+.weui-cell-time{
+  font-size:14px;
+  padding-left: 15px;
+  color: #c5b0b0;
+ margin-bottom: 7px;
+}
+.weui-cell-name{
+  font-size:14px;
+  height:23px;
+  margin-left: 16px;
+   
+  }
+.weui-cell-line{
+  margin-left: 5px;
+  border-left: 1px solid #ddd;
+  height: 80px; 
+  background: #fff
+}
+.test{
+  float: left;
+  margin-top: -14px;
+}

@@ -1,0 +1,26 @@
+<!--pages/content/content.wxml-->
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class="wxParse conent_view">
+   
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+        
+</view>
+<view class='col'>
+    <view class='block' bindtap="return">
+    <image src='https://www.fengche.ltd/wxImages/home.png'/>
+    <view class="home">今日</view>
+</view>
+<view class='block' bindtap="share">
+    <view class="btn">
+        <button  class='share-btn' plain="{{true}}" open-type="share">
+            <image src='https://www.fengche.ltd/wxImages/share.png'/>
+            <view style="margin-top: -8px;">分享</view>
+        </button>
+    </view>
+  
+</view>
+
+</view>
+
+
+

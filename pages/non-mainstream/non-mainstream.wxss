@@ -1,0 +1,42 @@
+.content{
+  width: 100%;
+}
+.To-convert{
+  font-size: 13px;
+  line-height: 3em;
+  color: #aeb7c0;
+  margin-left: 10px;
+  margin-bottom: 5px;
+ 
+}
+.division{
+  border-bottom: 3px solid #cecece;
+  margin: auto;
+  margin-bottom: 15px;
+ 
+}
+.To-convertText{
+  border: 3px solid #cecece;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.converted{
+  font-size: 13px;
+  line-height: 4em;
+  color: #aeb7c0;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  
+}
+.convertedText{
+  border: 3px solid #aeb7c0;
+  width: 300px;
+  margin-left: 10px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.copy{
+  margin-bottom: 15px;
+}

@@ -1,0 +1,50 @@
+/* pages/other/other.wxss */
+
+.personal-middle{
+  width: 100%;
+  height: 450rpx;
+}
+
+.per-mid-list2{
+  margin-top: 15px;
+}
+.per-mid-list4,.per-mid-list5{
+  width: 90%;
+  float: right;
+  height: 20%;
+}
+.per-mid-list4{
+  border-bottom: 1px #f7f7f7 solid;
+}
+
+.per-mid-list-left{
+  width:40%;
+  height:100%;
+  float: left;
+}
+.per-mid-list-left image{
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+.per-mid-list-left-text{
+  color: #888;
+  font-size: 13px;
+  line-height: 90rpx;
+  height: 100%;
+  float: right;
+}
+
+.per-mid-list-right{
+  width:40%;
+  height:100%;
+  float: right;
+}
+.per-mid-list-right image{
+  width: 30%;
+  height: 100%;
+  float: right;
+}
+.btn >button{
+  border: none;
+}

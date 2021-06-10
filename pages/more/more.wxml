@@ -1,0 +1,23 @@
+<!--pages/other/other.wxml-->
+
+
+  <view>
+    <view class="list1" bindtap='bindViewhistory'>
+      <image style="width:100%;height:280px" src="https://www.fengche.ltd/wxImages/history.png"/>
+        <view class="btn">
+          <button plain="{{true}}"> 
+            <view>历史上的今天</view>
+          </button>
+        </view>
+    </view>
+
+    <view class="list2" bindtap='bindViewnonMainstream'>
+      <image  style="width:100%" src="https://www.fengche.ltd/wxImages/non-mainstream.png"/>
+      <view class="btn">
+        <button plain="{{true}}" >
+          <view>火星文转换器</view>
+        </button>
+      </view>
+
+    </view>
+  </view>

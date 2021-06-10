@@ -1,0 +1,29 @@
+<view class="content">
+<view class="To-convert">请在下方文本框中输入你要转换的文字  <text style="font-size:9px">(不支持英文字母和阿拉伯数字)</text></view>
+<view class="division"></view>
+<view class="To-convertText">
+  <textarea value="{{inputText}}" bindinput='convertText' fixed="true"  cols="30" rows="10" placeholder="请输入文字"></textarea>
+</view>
+<view style="display: flex;flex-direction:row;flex-wrap: wrap;width:100%">
+<view >
+<button bindtap="Chinese"  type="primary" style='width:100px;margin: auto;margin-left:15%'>简转火</button>
+</view>
+<view>
+  <button bindtap="nonMainstream" type="primary" style='width:100px;margin:auto;margin-left:25% '>火转简</button>
+</view>
+<view>
+  <button  bindtap="reset" type="primary" style='width:100px;margin: auto;margin-left:35%'>清除</button>
+</view>
+</view>
+<view class="converted">转换结果</view>
+<view class="division"></view>
+<view class="convertedText">
+  <textarea value="{{showText}}" fixed="true"  cols="30" rows="10"></textarea>
+</view>
+
+
+<view class="copy">
+  <button  bindtap="copy" type="primary" style='width:200px'>复制</button>
+</view>
+</view>
+

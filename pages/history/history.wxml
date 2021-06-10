@@ -1,0 +1,36 @@
+<!--index.wxml-->
+
+<view class="view_top">
+  <picker class='data' mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+      <view class="zan-panel">
+    <view class="zan-btn zan-btn--large">
+            <ul>
+                <li style='width:40%;'><image  src="https://www.fengche.ltd/wxImages/calendar.png"></image> </li>
+                <li style="width:55%;"> {{showtext}}</li>
+            </ul>    
+    </view>
+  </view>
+  </picker>
+</view>
+
+
+<!--列表  -->
+   <scroll-view  scroll-y="true" class="scoll-h" >   
+    <block wx:for="{{datas}}" wx:key="2*this">
+       <view class="items-list" bindtap="showDetail" data-index="{{index}}">
+        <view class='weui-cell-circle'>
+          <view class='weui-cell-circle02'></view>
+        </view>
+ <view class='weui-cell-line'>
+ <view class="test">
+ <view class='weui-cell-time'>{{item.year}}年</view>
+ <view class='weui-cell-name'>{{item.title}}</view>
+</view>
+</view>
+      </view>                  
+  </block>
+</scroll-view> 
+  
+
+
+                 

@@ -1,0 +1,32 @@
+/* pages/content/content.wxss */
+@import "/wxParse/wxParse.wxss";
+
+.col{
+  overflow:hidden;
+  margin-bottom:0;
+  background:#fff;
+  width:100%;
+  bottom:0px;
+  display:flex;
+}
+.col .block{
+  margin-left:100px
+}
+
+.col image{
+  width: 20px;
+  height: 20px;
+}
+.col .block view{
+  font-size: 10px;
+}
+.home{
+  margin-top: 2.5px;
+}
+.btn{
+  margin-left: -12px;
+}
+.btn >button{
+  border: none;
+  font-size: 10px;
+}
