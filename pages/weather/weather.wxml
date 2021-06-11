@@ -1,14 +1,14 @@
 <view class="header-modular" wx:if="{{now}}" style="background:url({{background}})">
 <view class="row">
   <view class="row location-wrap"  bindtap="searchregion">
-    <image class="icon" src="https://www.fengche.ltd/wxImages/region.png"></image>
+    <image class="icon" src="/images/region.png"></image>
     <view class="title">{{City}} {{County}}</view>
   </view>
 
 </view>
 <view class="row">
   <view class="tmp">{{now.temp}}°</view>
-  <image class="icon-weather" src="https://www.fengche.ltd/wxImages/weather02/{{now.icon}}.png"></image>
+  <image class="icon-weather" src="/images/weather/{{now.icon}}.png"></image>
 </view>
 <view class="tips-wrap">
   <view class="tips ">{{now.windDir}} <text>{{now.windScale}}级</text> </view>
@@ -25,7 +25,7 @@
   <block wx:for="{{hourly}}" wx:key="index">
     <view class="item hourly">
       <view class="text-gray">{{item.time}}</view>
-      <image class="icon" src="https://www.fengche.ltd/wxImages/weather02/{{item.icon}}.png"></image>
+      <image class="icon" src="/images/weather/{{item.icon}}.png"></image>
       <view class="text-primary mb-32">{{item.temp}}°</view>
       <view>{{item.windDir}}</view>
       <view class="text-gray">{{item.windScale}}级</view>
@@ -44,9 +44,9 @@
     <view class="item daily">
       <view>{{item.dateToString}}</view>
       <view class="text-gray">{{item.date}}</view>
-      <image class="icon" src="https://www.fengche.ltd/wxImages/weather02/{{item.iconDay}}.png"></image>
+      <image class="icon" src="/images/weather/{{item.iconDay}}.png"></image>
       <view class="text-primary ">{{item.tempMin}}°~{{item.tempMax}}°</view>
-      <image class="icon" src="https://www.fengche.ltd/wxImages/weather02/{{item.iconNight}}.png"></image>
+      <image class="icon" src="/images/weather/{{item.iconNight}}.png"></image>
       <view>{{item.windDirDay}}</view>
       <view class="text-gray">{{item.windScaleDay}}级</view>
     </view>

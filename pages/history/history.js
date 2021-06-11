@@ -132,7 +132,7 @@ Page({
   getinfor: function (month, day) {
     var that = this;
     wx.request({
-      url: 'https://www.fengche.ltd/test02.php', 
+      url: 'https://api.jisuapi.com/todayhistory/query',
       data: {
         appkey:'',//自己的key
         month: month,

@@ -29,7 +29,7 @@ Page({
         })
      }
       wx.request({
-        url:'https://www.fengche.ltd/non-mainstream.php',
+        url:'https://api.jisuapi.com/fontconvert/convert',
         data:{
           appkey:'',//自己的key
           content:Text,

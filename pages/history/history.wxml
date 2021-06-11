@@ -5,7 +5,7 @@
       <view class="zan-panel">
     <view class="zan-btn zan-btn--large">
             <ul>
-                <li style='width:40%;'><image  src="https://www.fengche.ltd/wxImages/calendar.png"></image> </li>
+                <li style='width:40%;'><image  src="/images/calendar.png"></image> </li>
                 <li style="width:55%;"> {{showtext}}</li>
             </ul>    
     </view>
